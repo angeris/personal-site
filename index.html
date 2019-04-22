@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Guillermo Angeris</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <style>
+            body {
+                margin: 40px auto;
+                max-width: 650px;
+                line-height: 1.8;
+                font-size: 18px;
+                color: #444;
+                padding: 0 10px;
+            }
+            h1 {
+		    font-size: 40px;
+            }
+            h2 {
+                font-size: 30px;
+                line-height: 1;
+            }
+            h3 {
+                font-size: 26px;
+                line-height: 1.5;
+            }
+            h1, h2, h3 {
+                font-family: 'helvetica neue', sans-serif;
+                font-weight: 200;
+            }
+            a {
+                color: #628D9B;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            img {
+                width: 35%;
+                display: block;
+                margin: 0 auto;
+            }
+            p {
+                margin-bottom: 0;
+            }
+            .email {
+                text-align:center;
+                color: #666;
+            }
+        </style>
+
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73543332-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-73543332-3');
+        </script>
+    </head>
+    <body>
+        <h1>Guillermo Angeris (Guille)</h1>
+        <h2>BS/MS/PhD in Electrical Engineering</h2>
+        <div style="margin-top: 60px; margin-bottom:60px">
+            <img src="me.jpg">
+        </div>
+        <h2>About</h2>
+        <p>
+            BS/MS/PhD in Electrical Engineering interested in optimization, physics, and puppies; I also sometimes pretend to do research and things.
+        </p>
+        <p>
+        Currently working on inverse design in the <a href="https://nqp.stanford.edu">Nanoscale and Quantum Photonics</a> lab with Prof. <a href="http://web.stanford.edu/~jela/">Jelena Vuckovic</a> and Prof. <a href="https://web.stanford.edu/~boyd/">Stephen Boyd</a>, and also currently coauthoring a paper in neurobiology and biophysics on the statistical inference of second-order point processes (continuous space and time diffusion models with observable point processes) with Prof. <a href="https://www.cshl.edu/research/faculty-staff/tatiana-engel/">Tatiana Engel</a>. I am currently being academically advised by Prof. <a href="https://sites.google.com/site/marywootters/">Mary Wootters</a>.
+        </p>
+
+        <h2>
+            More
+        </h2>
+        <p>
+        For my work and more info, my (more complete) blog <a href="https://guille.site">can be found here</a> which I update at least once every two weeks. Additionally, my code can be found in my <a href="https://github.com/angeris">GitHub repo</a>.
+        </p>
+        <p>
+        I love having coffee chats! If you'd like to talk about something interesting, send me an email at
+        </p>
+        <p class="email">
+        <i>[my last name]@stanford.edu</i>
+        </p>
+        <p>
+        so we can schedule something.
+        </p>
+        <h2>
+            Papers
+        </h2>
+        <dl>
+            <dt><b><a href="papers/comp_imposs_res.pdf">Computational bounds for photonic design</a></b> (Nov. 2018, edited Dec. 2018)</dt>
+            <dd>
+		<i>Guillermo Angeris, Jelena Vuckovic, Stephen Boyd.</i> (<a href="https://arxiv.org/abs/1811.12936">arXiv</a>,
+			<a href="https://github.com/angeris/ComputationalBounds">code</a>)            </dd>
+	    <dd>
+		Published in <i><a href="https://pubs.acs.org/doi/10.1021/acsphotonics.9b00154">ACS Photonics</a></i>.
+	    <dd>
+        </dl>
+        <h2>
+            Teaching
+        </h2>
+        <p>
+            <b>CME/EE103</b>: <a href="http://ee103.stanford.edu">Introduction to Matrix Methods</a>
+            <br>
+            <i>TA'd on:</i> Autumn 2015, Autumn 2016, Autumn 2017.
+        </p>
+        <p>
+            <b>EE364A</b>: <a href="http://ee364a.stanford.edu">Convex Optimization</a>
+            <br>
+            <i>TA'd on:</i> Spring 2017, Winter 2018.
+        </p> 
+        <p>
+            <b>EE104</b>: <a href="http://ee104.stanford.edu">Introduction to Machine Learning</a>
+            <br>
+            <i>TA'd on:</i> Spring 2018.
+        </p>
+        <h2>
+            Class Projects
+        </h2>
+        <p>
+            <b>LEigOpt.jl: A fast, first-order interior-point optimizer for eigenvalue optimization</b>
+            <br>
+            We propose a new first-order interior-point method for eigenvalue optimization of matrices with common sparsity structure, which, in the current testing, outperforms SCS and CVXOPT by at least an order of magnitude of runtime. (<a href="papers/leigopt_report.pdf">pdf</a>, <a href="https://github.com/guillean/LEigOpt">code</a>)
+        </p>
+        <p>
+            <b>Electrical network approximation to constrained minimum <i>k</i>-cut (multiway cut)</b>
+            <br>
+            We propose a novel, fast method for approximating the minimum <i>k</i>-Cut problem by using electrical networks. Our approach has similar performance to the current best LP approximation but much faster empirical runtime. (<a href="papers/approximation_algorithms_report.pdf">pdf</a>, <a href="https://github.com/guillean/ElectricalSparsestCut">code</a>)
+        </p>
+        <p>
+            <b>DominAI: An AI for the imperfect information game of Dominoes</b>
+        <br>
+        We develop an algorithm for approximating good play in imperfect information games and show an application of the algorithm to the team-based game of Venezuelan dominoes. (<a href="papers/dominai.pdf">pdf</a>, <a href="papers/dominai_poster.pdf">poster</a>, <a href="https://github.com/guillean/DominAI">code</a>)
+        </p>
+        <p>
+            <b>GameBoy emulator on bare metal Raspberri Pi</b>
+            <br>
+            We developed a complete (though not cycle-accurate) CPU/GPU emulator for the original GameBoy, built on top of the Raspberry Pi without an operating system. (<a href="https://github.com/guillean/CS107E-GB-Emulator">code</a>)
+        </p>
+        <p>
+            <b>Unsupervised learning for brain tumor categorization</b>
+            <br>
+            We correctly infer tumour regions without reference to masked examples by using unsupervised learning, showing that a simple approach for unknown or little-known classes of tumors can yield possibly useful insights into these classes. (<a href="papers/braintumour_report.pdf">pdf</a>, <a href="papers/braintumour_poster.pdf">poster</a>, <a href="https://github.com/guillean/BrainTumorCategorization">code</a>)
+        </p>
+        <h2>
+            Other Projects
+        </h2>
+        <p>
+            <b>Autonomous, multi-objective path planner for the AUVSI–SUAS competition</b>
+            <br>
+            Currently working on a path-planning algorithm for fixed-wing search-and-rescue UAVs with real-time objective creation, modification, and updating. No code will be available until the end of the competition, but progress and mathematical descriptions of the solution can be found on my blog. (<a href="https://guille.site">blog</a>, <a href="http://www.auvsi-suas.org">competition</a>)
+        </p>
+        <p>
+            <b>Chocolate-Arch: A tiny 8-bit processor</b>
+            <br>
+            I designed an 8-bit architecture made to fit on a Lattice iCEStick (with 1K LUTs). A small team of us began a complete implementation on an FPGA along with an external Arduino-based debugger during a hackathon. (<a href="https://github.com/guillean/chocolate-arch">code</a>)
+	<h2>
+		Frequently Asked Questions
+	</h2>
+        <h3>
+            Wait, so how do I pronounce your nickname?
+        </h3>
+        <p>
+            Gee (like <b>gee</b>se) - ye (like <b>ye</b>t, but without the t).
+        </p>
+	<h3>
+		Do you do anything <i>other</i> than research or program? E.g., anything useful?
+	</h3>
+	<p>
+		Probably not, to be honest.
+	</p>
+	<p>
+		I do like to <a href="https://stanford.box.com/s/kdga9duql2fj3wku219qto8jy9pihebh">make pizza</a> (picture credits to <a href="https://www.katiereinders.com">Katie</a> and <a href="https://www.kaitlynolah.com">Kaitlyn</a>!), listen to music, and <a href="https://stanford.box.com/s/o7b11g7j3ffixuro4ifqq3vac1qjbery">hike</a>, though.
+	</p>
+    </body>
+</html>
